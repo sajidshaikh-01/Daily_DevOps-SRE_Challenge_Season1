@@ -1,0 +1,13 @@
+{
+  "name": "prod-data",
+  "policies": [
+    {
+      "type": "read",
+      "appliedTo": ["users", "services"]
+    },
+    {
+      "type": "write",
+      "appliedTo": ["services"]
+    }
+  ]
+}
